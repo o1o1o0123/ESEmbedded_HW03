@@ -22,8 +22,6 @@ const int i=8;
 const int j=9;
 void reset_handler(void)
 {	
-	while (1)
-	{
 		int k=10;
 		int l=11;
 		int m=12;
@@ -34,9 +32,9 @@ void reset_handler(void)
 		const int r=17;
 		const int s=18;
 		const int t=19;
-    	
-		function_add(k, l, m, n, o);   //caller
-		
-		caller_1();               //caller
+		int ans_1=function_add(k, l, m, n, o);   //caller
+		int ans_0=caller_1();               //callermake
+	while (1)
+	{
 	}
 }
